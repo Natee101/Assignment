@@ -1,0 +1,136 @@
+
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: ;
+  font-size: ;
+  line-height: ;
+  font-family: ;
+  background: url(../images/.jpg) no-repeat center center fixed;
+  background-size: 
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+	width: 960px;
+	margin: auto;
+  padding-top: 5em;
+}
+
+header {
+  background:;
+  padding:;
+}
+
+.section1 {
+  text-align:;
+  color:;
+  font-size: ;
+  font-weight: ;
+  font-family: 
+}
+
+.section1 button {
+  font-size: ;
+  font-weight:;
+}
+
+.bulb{}
+
+.bday{}
+
+.portfolio{}
+
+.section2 {
+  text-align:;
+  color:;
+  font-size: ;
+  font-weight: ;
+  font-family: 
+}
+
+.section2 p{}
+
+.section3 {
+  text-align:;
+  color:;
+  font-size: ;
+  font-weight: ;
+  font-family: 
+}
+
+.section3 li{}
+
+.section3 video{}
+
+
+.section4 {
+  text-align:;
+  color:;
+  font-size: ;
+  font-weight: ;
+  font-family: 
+}
+
+.section4 li{}
+
+ {
+  color:
+  font-size: 
+  background: 
+  border: solid 
+  padding: 
+  display: 
+  width: 
+  margin-right: 
+  font-family: 
+  height: 
+  
+  vertical-align: middle;
+  box-shadow: 
+}
+#submit-btn:hover {
+  background: #fff600;
+}*/
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
