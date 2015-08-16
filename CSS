@@ -45,28 +45,190 @@ body {
 /*******************************************/
 
 /* Center the container */
-.container {
-	width: 960px;
+.wrapper {
+	width: 100%;
 	margin: auto;
-  padding-top: 5em;
+  /*padding-top: 5em;*/
+  background-color: solid black;
+
 }
 
-header {
-  background:;
-  padding:;
+.section1{
+  width: 100%;
+  height: 650px;
+  background-color: black;
+
 }
 
-.section1 {
-  text-align:;
-  color:;
-  font-size: ;
-  font-weight: ;
-  font-family: 
+.home_background{
+  float: left;
+  position: relative;
+
 }
 
-.section1 button {
-  font-size: ;
-  font-weight:;
+.homepage{
+  margin-left: 190px;
+  margin-top: 50px;
+  float: left;
+  position: absolute;
+}
+
+.Nate{
+  /*padding: 50px 0px 40px 40px;*/
+  width: 25%;
+  height: 650px;
+  position:absolute;
+  color: white;
+  /*background-color: black;*/
+  font-family: 'Lucida Sans Unicode';
+  font-size: 24px;
+  /*padding-top: 150px;*/
+  text-decoration: none;
+  float: left;
+
+}
+
+.Nate ul{
+  padding-left: 50px;
+  padding-top: 65px;
+
+}
+
+.Nate ul li{
+  margin-bottom: 60px;
+
+}
+
+a:link    {color:white; background-color:transparent; text-decoration:none}
+a:visited {color:pink; background-color:transparent; text-decoration:none}
+a:hover   {color:#FFFF33; background-color:transparent; text-decoration:underline}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+
+.cog{
+  float: left;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 50px;
+
+}
+/*.section1 li a:visited{*/
+  color: yellow;
+
+}
+
+
+
+/*.section li{*/
+ 
+}
+
+
+
+
+  
+}
+
+.whitebar{
+  border-right: 5px solid black;
+  display: inline-block;
+/*  height: 250px;
+  float: left;
+  overflow: auto;*/
+
+}
+
+.About h1{
+  padding: 50px 0px 40px 50px;
+  position:relative;
+  color: white;
+  background-color: black;
+  font-family: 'Lucida Sans Unicode';
+  font-size: 24px;
+  padding-top: 150px;
+
+}
+
+.About_background{
+  padding-top: 200px;
+  padding-bottom: 100px;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+  float: left;
+  position: absolute;
+  /*padding-top: 50px;*/
+}
+
+.about_img{
+  padding-bottom: 150px;
+  padding-top: 20px;
+  float: left;
+  margin-left: 400px;
+  position: relative;
+}
+
+/*.About{*/
+  color: solid white;
+  background-color: solid black;
+}
+
+/*.About_me{*/
+
+  margin-top: 100px;
+}
+
+/*.section2 img{*/
+  padding-left: 40px;
+}
+
+.section3{
+
+}
+
+.Work h1{
+  height: 50px;
+  width: 100%;
+  padding: 20px 0px 20px 50px;
+  position:relative;
+  color: white;
+  background-color: black;
+  font-family: 'Lucida Sans Unicode';
+  font-size: 24px;
+  /*padding-top: 150px;*/
+  float: left;
+  /*overflow: hidden;*/
+}
+
+.images{
+  width: 25px;
+  height: 25px;
+  /*margin-right: 1000px;*/
+
+}
+
+.enlarge:hover{
+  transform: scale (2,2);
+  transform-origin: 0 0;
+
+}
+
+.image_one{
+  /*margin-left: 100px;*/
+  width: 100px;
+  height:100px;
+}
+
+.video{
+  margin-top: 500px;
+}
+
+
+/*.section1 img{*/
+  margin-left: 150px;
+  /*float: left;*/
+  /*display: block;*/
+  position: relative;
 }
 
 .bulb{}
@@ -122,6 +284,23 @@ header {
   
   vertical-align: middle;
   box-shadow: 
+}
+/*#submit-btn {
+  background: #ffe500;
+  color: #000;
+  font-size: 38px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #111;
+  text-align: center;
+  display: inline-block;
+  width: 250px;
+  height: 72px;
+  line-height: 74px;
+  vertical-align: middle;
+  box-shadow: #111 0 0 50px;
+  font-family: helvetica, arial, sans-serif;
+  cursor: pointer;
 }
 #submit-btn:hover {
   background: #fff600;
