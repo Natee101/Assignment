@@ -1,0 +1,27 @@
+$(document).ready(function(){
+
+	// alert("alert");
+
+var target = this.hash
+var target = $(target);
+
+$('.section1').click(function() {
+    function enter() { 
+        $('BtnOne').attr(href='Nate');
+
+$('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+
+	});	
+});
+
+
+
+// variable is a string (text) with "quotation marks"
+// without quotation marks it's just a variable
+// Strings put things together. Variables (numbers) add them together.
+
+
