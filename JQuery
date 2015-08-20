@@ -2,21 +2,72 @@ $(document).ready(function(){
 
 	// alert("alert");
 
-var target = this.hash
-var target = $(target);
+// var target = this.hash
+// var target = $(target);
 
-$('.section1').click(function() {
-    function enter() { 
-        $('BtnOne').attr(href='Nate');
+// $('.section1').click(function() {
+//     function enter() { 
+//         $('Nate').attr(href='Nate');
 
-$('html, body').stop().animate({
-	        'scrollTop': $target.offset().top
-	    }, 900, 'swing', function () {
-	        window.location.hash = target;
-	    })
+// $('.section1').click(function() {
+//     function enter() { 
+//         $('About').attr(href='About');
 
-	});
-})
+// $('.section1').click(function() {
+//     function enter() { 
+//         $('Work').attr(href='Work');
+
+// $('.section1').click(function() {
+//     function enter() { 
+//         $('Contact').attr(href='Contact');
+
+
+
+// $('html, body').stop().animate({
+// 	        'scrollTop': $target.offset().top
+// 	    }, 900, 'swing', function () {
+// 	        window.location.hash = target;
+
+
+// $(window).scroll(function(){
+// 	$.each($('.follow-scroll'), function(){
+// 		var eloffset = $(this).offset();
+// 		var windowpos = $(window).scrollTop();
+// 		if (windowpos<eloffset.top) {
+// 			var finaldestination = 0;
+// 		} else {
+// 			var finaldestination = windowpos;
+// 		}
+// 		$(this).stop().animate({'top':finaldestination},200)
+// 	  });
+// 	});
+
+//     $(function () {
+//           $('.images').hover(function () {
+//           $(this).addClass('transition');
+//         },	function() {
+//           $(this).removeClass('transition');
+//                    });
+//               });
+
+// var $root = $('html, body');
+// $('Nate').click(function() {
+//     var href = $.attr(this, 'Nate');
+//     $root.animate({
+//         scrollTop: $(href).offset().top
+//     }, 500, function () {
+//         window.location.hash = href;
+//     });
+//     return false;
+// });
+
+
+// $('#images').hover(function(){
+//     $(this).css({width:"100%",height:"100%"});
+// },function(){
+//     $(this).css({width:"50%",height:"50%"});   
+// });
+// });
 
 
 
