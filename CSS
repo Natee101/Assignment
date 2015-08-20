@@ -51,7 +51,7 @@ body {
 .wrapper {
 	width: 100%;
 	margin: auto;
-  height: 1500px;
+  height: 2500px;
   /*padding-top: 5em;*/
   background-color: solid black;
 
@@ -67,6 +67,7 @@ header{
   width: 100%;
   height: 650px;
   background-color: black;
+  margin-bottom: 50px;
 
 }
 
@@ -76,19 +77,21 @@ header{
   background-color: solid black;
   width: 100%;
   height: 650px;
+  margin-bottom: 50px;
 
 }
 
 .homepage{
-  margin-left: 190px;
+  margin-left: 192px;
   margin-top: 50px;
   float: left;
   position: absolute;
+  margin-bottom: 50px;
 }
 
 .Nate{
   /*padding: 50px 0px 40px 40px;*/
-  width: 25%;
+  width: 100%;
   height: 650px;
   position:absolute;
   color: white;
@@ -99,17 +102,24 @@ header{
   text-decoration: none;
   float: left;
 
+
 }
 
 .Nate ul{
-  padding-left: 50px;
-  padding-top: 65px;
-  
+  padding-left: 75px;
+  padding-top: 50px;
+  /*text-align: center;*/
+  /*padding-right: 100px;*/
+  /*margin-right: 100px;*/
 
 }
 
 .Nate ul li{
-  margin-bottom: 60px;
+  /*margin-bottom: 60px;*/
+  display: inline-block;
+  margin-left: 75px;
+  margin-right: 123px;
+  text-align: center;
 
 
 }
@@ -135,7 +145,7 @@ a:active  {color:yellow; background-color:transparent; text-decoration:underline
   float: left;
   position: absolute;
   margin-top: 150px;
-  margin-left: 50px;
+  margin-left: 32px;
 
 }
 
@@ -177,7 +187,7 @@ a:active  {color:yellow; background-color:transparent; text-decoration:underline
 .About h1{
   height: 50px;
   width: 100%;
-  padding: 20px 0px 20px 50px;
+  padding: 20px 0px 20px 170px;
   position:relative;
   color: white;
   background-color: black;
@@ -185,6 +195,7 @@ a:active  {color:yellow; background-color:transparent; text-decoration:underline
   font-size: 24px;
   /*padding-top: 150px;*/
   float: left;
+  margin-top:50px;
   /*overflow: hidden;*/
 
 
@@ -223,43 +234,111 @@ a:active  {color:yellow; background-color:transparent; text-decoration:underline
 }
 
 .section3{
-   padding-top: 200px;
-  padding-bottom: 100px;
-  /*background-color: black;*/
+   /*padding-top: 200px;*/
+  /*padding-bottom: 100px;*/
+  background-color: black;
   overflow: hidden;
   width: 100%;
   height: 650px;
   float: left;
-  position: absolute;
+  position: relative;
 
 }
 
 .Work h1{
   height: 50px;
-  width: 100%;
-  padding: 20px 0px 20px 50px;
+  width: 1102px;
+  padding: 20px 0px 20px 175px;
+  margin-right: 225px;
   position:relative;
   color: white;
   background-color: black;
   font-family: 'Lucida Sans Unicode';
   font-size: 24px;
+  /*margin-right: 50px;*/
   /*padding-top: 150px;*/
   float: left;
+  /*padding-top:75px;*/
   /*overflow: hidden;*/
 }
 
-.images{
-  /*width: 55px;*/
-  /*height: 25px;*/
-  margin-left: 100px;
-  width:100%;
-  height: 150px;
+
+.images ul li{
+  float: left;
+  position: relative;
+  display: inline-block;
+  /*border: 2px solid black;*/
+  margin-left: 32px;
+  /*padding-bottom: 27.3px;*/
+  padding-top: 27.3px;
 
 }
 
-.bakery_nine{
+/*.images ul li style{*/
+  width: 500px;
+  height: 500px;
+}
+
+.logos{
+  /*position: absolute;*/
+
+} 
+
+.logos ul li{
+  float: left;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 32px;
+  padding-top: 27.3px;
+
+}
+
+/*.tropfest_resize li a{*/
+  /*height: 500px;*/
+  /*width: auto;*/
+  position:relative;
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+  margin-left: 27.3px;
+  padding-top: 27.3px;
+}
+
+.Tropfest a{
+  line-height: 300px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  line-height: 0px;
+  /*display: block;*/
+}
+
+/*.Tropfest{*/
+  margin-bottom:100px;
+}
+
+/*.bakery_nine{*/
+  padding-left: 150px;
+  padding
+}
+
+/*.images ul li{*/
+  width: 55px;
+  height: 25px;
+  margin-left: 100px;
+  padding-top: 500px;
+  /*width:100%;*/
+  /*height: 150px;*/
+
+}
+
+/*.bakery_nine{*/
   /*margin-left: 150px;*/
   /*margin-bottom: 150px;*/
+}
+/*.tropfest{*/
+  margin-left: 0px;
+  padding-top: 0px;
 }
 
 /*ul li{*/
@@ -267,7 +346,7 @@ a:active  {color:yellow; background-color:transparent; text-decoration:underline
   height: 600px;
 }
 
-.images ul li .bakery_eight{
+/*.images ul li .bakery_eight{*/
    width: 100%;
   height: 150px;
 }
@@ -278,7 +357,7 @@ a:active  {color:yellow; background-color:transparent; text-decoration:underline
 
 }
 
-.image_one{
+/*.image_one{*/
   /*margin-left: 100px;*/
   width: 100px;
   height:100px;
@@ -302,7 +381,7 @@ a:active  {color:yellow; background-color:transparent; text-decoration:underline
 
 .portfolio{}
 
-.section2 {
+/*.section2 {*/
   text-align:;
   color:;
   font-size: ;
@@ -312,7 +391,7 @@ a:active  {color:yellow; background-color:transparent; text-decoration:underline
 
 .section2 p{}
 
-.section3 {
+/*.section3 {*/
   text-align:;
   color:;
   font-size: ;
@@ -322,7 +401,7 @@ a:active  {color:yellow; background-color:transparent; text-decoration:underline
 
 .section3 li{}
 
-.section3 video{}
+/*.section3 video{}*/
 
 
 .section4 {
@@ -333,7 +412,7 @@ a:active  {color:yellow; background-color:transparent; text-decoration:underline
   font-family: 
 }
 
-.section4 li{}
+/*.section4 li{}*/
 
  {
   color:
