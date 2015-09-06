@@ -1,27 +1,90 @@
+// $(document).ready(function(){
+
+	// .alert("alert");
+
 $(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
 
-	// alert("alert");
+	    var target = this.hash;
+	    var $target = $(target);
 
-var target = this.hash
-var target = $(target);
-
-$('.section1').click(function() {
-    function enter() { 
-        $('BtnOne').attr(href='Nate');
-
-$('html, body').stop().animate({
+	    $('html, body').stop().animate({
 	        'scrollTop': $target.offset().top
 	    }, 900, 'swing', function () {
 	        window.location.hash = target;
-	    })
+	    });
+		
+
+	    $(document).ready(function() {
+	    	// $.alert();
+  $("#cf_onclick").click(function() {
+  $("#images-container").toggleClass("transparent");
+
+		});
 
 	});
-})
+
+
+});
+	$(document).ready(function(){
+
+   var $imgWidth = $('#slider_images img').first().outerWidth();//read the image width
+   var $imgCount = $('#slider_images img').length;//count the images
+   $('#slider_images').width($imgWidth*($imgCount+2));//set the width of the container to the number of images - plus 2 to account for the cloned images
+   $('#slider_images img').first().addClass('endless_slider_first');//identify the first and last images
+   $('#slider_images img').last().addClass('endless_slider_last');
+   $('.endless_slider_first').clone().appendTo('#slider_images');//clone the first image and put it at the end
+   $('.endless_slider_last').clone().prependTo('#slider_images');//clone the last image and put it at the front
+
+   $('#slider_images').css({'left':-1*$imgWidth+'px'});//reset the slider so the first image is still visible
+   
+   $('#endless_slider_right').click(function(){
+      $('#slider_images').stop(true,true); //complete any animation still running - in case anyone's a bit click happy... 
+      var $newLeft = $('#slider_images').position().left-(1*$imgWidth);//calculate the new position which is the current position minus the width of one image
+      $('#slider_images').animate({'left':$newLeft+'px'},function(){//slide to the new position...
+         if (Math.abs($newLeft) == (($imgCount+1)*$imgWidth)) //...and if the slider is displaying the last image, which is the clone of the first image...
+            {
+            $('#slider_images').css({'left':-1*$imgWidth+'px'});//...reset the slider back to the first image without animating 
+            }
+         });
+      return false;
+   });
+   
+   $('#endless_slider_left').click(function(){
+      $('#slider_images').stop(true,true); //complete any animation still running  
+      var $newLeft = $('#slider_images').position().left+(1*$imgWidth);//calculate the new position which is the current position plus the width of one image
+      $('#slider_images').animate({'left':$newLeft+'px'},function(){//slide to the new position
+         if (Math.abs($newLeft) == (0)) //if the slider is displaying the first image, which is the clone of the last image
+            {
+            $('#slider_images').css({'left':-($imgCount)*$imgWidth+'px'});//reset the slider back to the last image without animating 
+            }
+	});
+   return false;
+   });
+
+});
+
+});
 
 
 
-// variable is a string (text) with "quotation marks"
-// without quotation marks it's just a variable
-// Strings put things together. Variables (numbers) add them together.
+
+// jQuery(document).ready(function() {
+// 		 var offset = 250;
+// 		 var duration = 300;
+// 		 jQuery(window).scroll(function() {
+// 		 if (jQuery(this).scrollTop() > offset) {
+// 		 jQuery(".back-to-top").fadeIn(duration);
+// 		 } else {
+// 		 jQuery(".back-to-top").fadeOut(duration);
+// 		 }
+// 		 });
+// 		 jQuery(".back-to-top").click(function(event) {
+// 		 event.preventDefault();
+// 		 jQuery("html, body").animate({scrollTop: 0}, duration);
+// 		 return false;
+// 		 })
+// 		});
 
 
